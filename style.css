@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+  color: #fff;
+}
+.main>p{
+    position: relative;
+    font-size: 20px;
+    top: 5px;
+}
+#a1{
+    left: 130px;
+}
+#a2{
+     left: 200px;
+}
+#a3{
+    left: 260px;
+}
+#a4{
+    left:330px;
+}
+#a5{
+    left: 390px;
+}
+#a6{
+  right: -450px;
+}
+#a7{
+  right: -520px;
+}
+#a8{
+right: -600px;
+}
+.main0{
+    color: #fff;
+    position: relative;
+   font-size: 20px;
+   left: 100px;
+}
+.main0>.p8{
+    top:-180px;
+    position: relative;
+}
+.p7{
+    position: relative;
+    top: -130px;
+}
+.p6{
+    top: -70px;
+    position: relative;
+}
+.p5{
+    position: relative;
+    top: -20px;
+}
+.p4{
+    position: relative;
+    top:30px;
+}
+.p3{
+    position: relative;
+    bottom: -80px;
+}
+.p2{
+  position: relative;
+  bottom: -130px;
+}
+.p1{
+    position: relative;
+    bottom: -180px;
+}
+.main2{
+    width: 650px;
+    height: 650px;
+    border: 30px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main2>.div1{
+    display: flex;
+    height: 74px;
+    
+}
+.main2 .d{
+    display: inline-block;
+    width: 74px;
+    font-size: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.main2 .div1:nth-child(odd)>.d:nth-child(odd){
+    background-color: moccasin;
+}
+.main2 .div1:nth-child(odd)>.d:nth-child(even){
+    background-color: maroon;
+}
+.main2 .div1:nth-child(even)>.d:nth-child(odd){
+    background-color: maroon;
+}
+.main2 .div1:nth-child(even)>.d:nth-child(even){
+    background-color: moccasin;
+}
+div{
+    color: black;
+}
+div{
+    color: black;
+}
+@media screen and (max-width:700px) {
+    .main2{
+        size-adjust: auto;
+    }
+    
+}
